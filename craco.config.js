@@ -6,5 +6,13 @@ module.exports = {
             '@': resolve('./src'),
             component: resolve('./src/component')
         }
-    }
+    },
+    style: {
+        postcss: {
+            plugins: [
+                require('tailwindcss'),
+                require('autoprefixer'),
+            ],
+        },
+    },
 }
