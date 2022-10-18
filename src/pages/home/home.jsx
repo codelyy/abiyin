@@ -1,8 +1,11 @@
 import React, { memo } from 'react'
+import Header from '../../component/header/Header'
 
 const Home = memo(() => {
     return (
-        <div>Home</div>
+        <div>
+            <Header />
+        </div>
     )
 })
 
